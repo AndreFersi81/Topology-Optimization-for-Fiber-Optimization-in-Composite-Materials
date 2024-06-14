@@ -1,5 +1,4 @@
 from fenics import *
-from fenics_adjoint import *
 import numpy as np
 import matplotlib.pyplot as plt
 
