@@ -202,7 +202,7 @@ def F(phi, u, v, u_):
 def compliance(phi, u):
     '''
     '''
-    return assemble(a(phi, u, u), annotate=True)
+    return assemble(a(phi, u, u))
 
 
 def DC_phi(phi):
